@@ -2,7 +2,7 @@
 
 public class Ejercicio4 {
   public static void main(String[] args) {
-    double euro;
+    int euro;
     double peseta;
 
     euro = 1;
