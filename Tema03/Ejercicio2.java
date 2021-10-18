@@ -4,7 +4,7 @@ public class Ejercicio2{
     System.out.println("Introduce el número de euros que quieres convertir:");
     float Puesto = Float.parseFloat(System.console().readLine());
     double euros;
-    euros = Puesto/166.386;
+    euros = Puesto*166.386;
     System.out.printf("%.2f pesetas", euros);
   }
 }
