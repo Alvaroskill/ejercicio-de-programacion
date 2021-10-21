@@ -1,5 +1,5 @@
 
-public class Ejercicio7 {
+public class Ejercicio07 {
   public static void main(String[] args) {
     System.out.print("Introduce el precio de la factura sin Iva: ");
     int PrecioSinIva = Integer.parseInt(System.console().readLine());
