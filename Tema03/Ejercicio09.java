@@ -1,5 +1,5 @@
 
-public class Ejercicio9 {
+public class Ejercicio09 {
   public static void main(String[] args) {
     System.out.print("Introduce la altura del cono en cm: ");
     double altura = Double.parseDouble(System.console().readLine());
