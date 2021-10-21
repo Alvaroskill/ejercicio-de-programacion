@@ -1,4 +1,4 @@
-public class Ejercicio3{
+public class Ejercicio03{
   public static void main(String[] args) {
     System.out.println("Conversión de pesetas a euros");
     System.out.println("Introduce el número de pesetas que quieres convertir:");
