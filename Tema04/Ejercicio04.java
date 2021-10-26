@@ -7,8 +7,8 @@ public class Ejercicio04 {
     double Total;
     double Total2;
     
-    Total = (HorasSemanales*12);
-    Total2= (HorasSemanales*16);
+    Total = (HorasSemanales * 12);
+    Total2= (40*12 + (HorasSemanales - 40)*16);
    
     if (HorasSemanales <=40)
     System.out.println("El sueldo semanal que le corresponde es de " + Total + "€");

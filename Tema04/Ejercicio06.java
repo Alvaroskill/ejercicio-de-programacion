@@ -18,6 +18,6 @@ public class Ejercicio06 {
     System.out.println ("Esta ecuación no tiene solución real");
   }
     else if (!(Total == 0))
-    System.out.printf("El tiempo que tarda en caer es de : " + Total + " segundos");
+    System.out.print("El tiempo que tarda en caer es de: " + Total + " segundos");
   }
 }

@@ -38,7 +38,7 @@ public class Ejercicio01 {
         break;
         
       default:
-        System.out.print("Lo sentimos es número no esta en la elección.");
+        System.out.print("Lo sentimos ese número no esta en la elección.");
     }
   }
 }
