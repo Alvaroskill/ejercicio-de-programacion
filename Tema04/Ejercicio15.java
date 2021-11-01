@@ -58,4 +58,9 @@ public class Ejercicio15 {
         break;
     }
   }
+
+  @Override
+  public String toString() {
+    return "Ejercicio15 []";
+  }
 }
