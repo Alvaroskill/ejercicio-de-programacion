@@ -3,32 +3,32 @@ public class Ejercicio21 {
 
   public static void main(String[] args) {
     
-    
-    
-    int numero = 0;
-    int numerosImpares = 0;
-    int suma = 0;
-    int division = 0;
-  
-  do {
-    
-    System.out.println("Por favor, vaya introduciendo números.");
-    numero = Integer.parseInt(System.console().readLine());
+    System.out.println("Por favor, vaya introduciendo números enteros.");
+    System.out.println("Puede terminar mediante la introducción de un número negativo.");
 
-  } while (numero > 0);
+    int numeroIntroducido;
+    int numeroDeElementos = 0;
+    int sumaImpares = 0;
+    int numeroImpares = 0;
+    int maximoPar = 0;
     
-    if (numero % 2 == 0){
-    numero += 2;
-    System.out.println("El mayor de los pares es: " + numero);
-  } else {
-    suma += numero;
-    numerosImpares++;
-    division = suma/numerosImpares;
-    System.out.println (" La media de los impares es " + division);
-  
-    
-  
- 
-}
-}
+    do {
+      numeroIntroducido = Integer.parseInt(System.console().readLine());
+      
+      if (numeroIntroducido >= 0) {
+        numeroDeElementos++;
+        if ((numeroIntroducido % 2) == 1) {
+          sumaImpares += numeroIntroducido;
+          numeroImpares++;
+        } else { 
+          if (numeroIntroducido > maximoPar)
+            maximoPar = numeroIntroducido;
+        }
+      }
+    } while (numeroIntroducido >= 0);
+
+    System.out.println("Ha introducido " + numeroDeElementos + " números");
+    System.out.println("La media de los impares es " + sumaImpares/numeroImpares);
+    System.out.println("El máximo de los pares es " + maximoPar);
+  }
 }
